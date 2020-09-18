@@ -19,3 +19,9 @@ grid-template-columns: 1fr 1fr 1fr;}
 
 /* add the .bigItem class */
 
+.bigItem {
+  grid-area: 2 / 2 / 4 / 4;
+  height: 50%;
+  width: 50%;
+  justify-self: center;
+}
